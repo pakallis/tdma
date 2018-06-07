@@ -3,7 +3,7 @@ package tdma_test
 import (
 	"testing"
 	"github.com/go-test/deep"
-	. "github.com/pakallis/mathutils/tdma"
+	. "github.com/pakallis/tdma/tdma"
 )
 
 func TestSolve(t *testing.T) {
