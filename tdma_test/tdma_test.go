@@ -1,9 +1,9 @@
 package tdma_test
 
 import (
-	"testing"
 	"github.com/go-test/deep"
 	. "github.com/pakallis/tdma/tdma"
+	"testing"
 )
 
 func TestSolve(t *testing.T) {
@@ -17,7 +17,6 @@ func TestSolve(t *testing.T) {
 		t.Error(diff)
 	}
 }
-
 
 func BenchmarkSolve(bn *testing.B) {
 	var l = []float64{0, -1, -1, -1}
